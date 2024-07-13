@@ -18,6 +18,7 @@ public:
     void removeVertex(int vertex);
     void removeEdge(int vertex1, int vertex2);
     int numVertices() const;
+<<<<<<< HEAD
     int numEdges() const;
     int indegree(int vertex) const;
     int outdegree(int vertex) const;
@@ -28,3 +29,9 @@ public:
 
 #endif
 
+=======
+ 
+};
+
+#endif
+>>>>>>> sushma
