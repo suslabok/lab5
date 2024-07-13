@@ -48,7 +48,6 @@ void Graph::removeEdge(int vertex1, int vertex2) {
 int Graph::numVertices() const {
     return vertexCount;
 }
-<<<<<<< HEAD
 
 int Graph::numEdges() const {
     int count = 0;
@@ -101,5 +100,3 @@ bool Graph::neighbour(int vertex1, int vertex2) const {
     if (vertex1 >= vertexCount || vertex2 >= vertexCount) return false;
     return adjMatrix[vertex1][vertex2] == 1;
 }
-=======
->>>>>>> sushma
